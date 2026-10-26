@@ -1,0 +1,7 @@
+model,split,precision,recall,f1,pr_auc,TP,FP,FN,TN
+Isolation Forest,validation,0.235,0.34,0.278,0.14,32,104,62,56547
+Isolation Forest,test,0.248,0.379,0.3,0.233,36,109,59,56542
+Autoencoder,validation,0.509,0.309,0.384,0.294,29,28,65,56623
+Autoencoder,test,0.524,0.347,0.418,0.421,33,30,62,56621
+XGBoost (supervised),validation,0.945,0.734,0.826,0.797,69,4,25,56647
+XGBoost (supervised),test,0.974,0.8,0.879,0.875,76,2,19,56649
